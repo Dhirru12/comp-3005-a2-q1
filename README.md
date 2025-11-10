@@ -7,9 +7,8 @@ Designed for a ≤5-minute walkthrough.
 - **Runtime:** Python 3.10+
 - **Optional:** pgAdmin for visual checks
 
-Repo contains `app.py` (CLI) and `db.sql` (DDL + seed). :contentReference[oaicite:0]{index=0}
 
----
+
 
 ## Quick Start
 
@@ -38,6 +37,4 @@ python app.py delete --id 3
 .
 ├─ app.py          # Python CLI for CRUD
 ├─ db.sql          # DDL + seed data
-├─ requirements.txt
-├─ .env.example
 └─ README.md

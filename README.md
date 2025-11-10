@@ -20,16 +20,15 @@ python -m venv .venv
 # macOS/Linux
 source .venv/bin/activate
 
-# 2) Install deps
-pip install -r requirements.txt
 
-# 3) Configure DB connection
+
+# 2) Configure DB connection
 cp .env.example .env
 # then edit .env with your values
 
-# 4) Create table & seed data (run db.sql in psql or pgAdmin Query Tool)
+# 3) Create table & seed data (run db.sql in psql or pgAdmin Query Tool)
 
-# 5) Try the CLI
+# 4) Try the CLI
 python app.py get_all
 python app.py add --first "Ana" --last "Lopez" --email "ana.lopez@example.com" --date "2024-09-01"
 python app.py update_email --id 1 --email "johnny.doe@example.com"

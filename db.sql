@@ -1,6 +1,4 @@
--- Database setup script for 'students' table
--- Run this in psql or pgAdmin on the target database.
--- It is idempotent: drops existing table for a fresh demo.
+
 DROP TABLE IF EXISTS students;
 
 CREATE TABLE students (
@@ -11,7 +9,6 @@ CREATE TABLE students (
     enrollment_date DATE
 );
 
--- Initial data
 INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
 ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),

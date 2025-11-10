@@ -1,34 +1,32 @@
 PostgreSQL Students CRUD - Mini Demo
 
-Tiny, self-contained CRUD with a Python CLI over a PostgreSQL `students` table.  
-Designed for a ≤5-minute walkthrough.
+Tiny, self-contained CRUD with a Python CLI over a PostgreSQL students table.  
 
-- DB: PostgreSQL 14+
-- Runtime: Python 3.10+
-- Optional: pgAdmin for visual checks
+DB: PostgreSQL 14+
+Runtime: Python 3.10+
 
 
 
 
-## Quick Start
+Quick Start
 
 ```bash
-# 1) Create & activate venv
+#Create & activate venv
 python -m venv .venv
-# Windows
+#Windows
 .venv\Scripts\activate
-# macOS/Linux
+#macOS/Linux
 source .venv/bin/activate
 
 
 
-# 2) Configure DB connection
+#Configure DB connection
 cp .env.example .env
-# then edit .env with your values
+#then edit .env with your values
 
-# 3) Create table & seed data (run db.sql in psql or pgAdmin Query Tool)
+#Create table & seed data (run db.sql in psql or pgAdmin Query Tool)
 
-# 4) Try the CLI
+#Try the CLI
 python app.py get_all
 python app.py add --first "Ana" --last "Lopez" --email "ana.lopez@example.com" --date "2024-09-01"
 python app.py update_email --id 1 --email "johnny.doe@example.com"

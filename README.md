@@ -1,11 +1,11 @@
-# PostgreSQL Students CRUD — Mini Demo
+PostgreSQL Students CRUD - Mini Demo
 
 Tiny, self-contained CRUD with a Python CLI over a PostgreSQL `students` table.  
 Designed for a ≤5-minute walkthrough.
 
-- **DB:** PostgreSQL 14+
-- **Runtime:** Python 3.10+
-- **Optional:** pgAdmin for visual checks
+- DB: PostgreSQL 14+
+- Runtime: Python 3.10+
+- Optional: pgAdmin for visual checks
 
 
 
